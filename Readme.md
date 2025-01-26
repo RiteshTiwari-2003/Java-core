@@ -83,3 +83,41 @@ it is not declared as static.
 
 it is called as instance variable because its value is instance specific and is not shared among instance.
 
+import java.io.*;  
+public class InstanceVariableDemo {  
+    //Defining Instance Variables  
+    public String name;  
+    public int age=19;  
+ //Creadting a default Constructor initializing Instance Variable  
+    public InstanceVariableDemo()  
+    {  
+        this.name = "Deepak";  
+    }  
+    public static void main(String[] args)  
+    {  
+        // Object Creation  
+       InstanceVariableDemo obj = new InstanceVariableDemo();  
+        System.out.println("Student Name is: " + obj.name);  
+        System.out.println("Age: "+ obj.age);  
+    }  
+}  
+
+# 3. static ariable :
+
+a ariable that is declared as static is called as static ariable , it can not be local , you can create a single copy of the static ariable
+and share it among all the instance of the class, memory allocation of the static varaible happen only once, when the class is loaded into the memory.
+
+class Student{
+    static int age;
+}
+public class StaticVariableExample{
+    public static void main(String[] args){
+        Student s1=new Student();
+        Student s2=new Student();
+        s1.age=24;
+        s2.age=78;
+        Student.age=47;
+        System.out.println("s1 age is "+s1.age);
+        System.out.println("s2 age is "+s2.age);
+    }
+}
