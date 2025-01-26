@@ -59,4 +59,27 @@ the jdk contain the private java virtual machine and a few other resources
 interpreter(loader), a compiler (javac),an achiever(jar), a documentaion generator(javadoc)
 
 # variable in java 
+there are three type of variables in java
+1. local variable 
+2. instance variable
+3. static variable
+
+there are two data types in java :
+1. primitive 2. non - primitive 
+
+1. local variable :
+a variable declared inside the body of the method is called local variable ,
+you can use this variable only within the method and the other method in the class even not aware with this varible 
+
+public class LocalVariable{
+    public static void main(String[] args){
+        int num=10;
+        System.out.println(num);
+    }
+}
+2. instance variable :
+a ariable declared inside the class outside the body of the method , is called an instance variable,
+it is not declared as static.
+
+it is called as instance variable because its value is instance specific and is not shared among instance.
 
