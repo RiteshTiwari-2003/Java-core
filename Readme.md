@@ -121,3 +121,26 @@ public class StaticVariableExample{
         System.out.println("s2 age is "+s2.age);
     }
 }
+
+# java variable example widening
+
+public class Simple{
+    public static void main(String[] args){
+        int a =10;
+        float f=a;
+        System.out.println(a);
+        System.out.println(f);
+    }
+}
+
+# java variable narrowing
+
+public class Simple{
+    public static void main(String[] args){
+        float f=5.1f;
+        int a=f;//give compile time error
+        int a=(int)f;
+        System.out.println(f);
+        System.out.println(a);
+    }
+}
