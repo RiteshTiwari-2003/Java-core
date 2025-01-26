@@ -26,3 +26,11 @@ High Performance
 Multithreaded
 Distributed
 Dynamic
+
+# difference between jvm , jdk and jre
+
+jm is the java vertual machine is an abstract machine,it is calle as virtual machine because it does not irtual exist.
+it is an specufication that provide an run time enoirment in which java byte code can be executed
+it is also run those program which are written in other language but compiled to java bytecode,
+jvm are aailable for many software and hardware platform , jm jre and jdk
+are platform dependent because the configuration of each os is d
