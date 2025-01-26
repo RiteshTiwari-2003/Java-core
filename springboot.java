@@ -93,4 +93,27 @@
  * support configuration throughapplication.properties and application.yml which can be externalized for different envoirment 
  * envoirment specific profile can be diffined for different configuration using spring.profiles.active.
  * 
+ * key feature of spring boot:
+ * 
+ * 1. auto configuration:
+ * automatically configure spring based application based on the libraries on the class path.
+ * reduce the need of manual configuration (database , webserver, security).
+ * developer can override auto configured if needed.
+ * 
+ * example : adding spring-boot-starter-data-jpa automatically configured hibernate and databaseconnection
+ * 
+ * 2. spring boot starter:
+ * starters are pre configured dependencies modules designed for specific use cases such as webapplication jpa and testing.
+ * simplfies dependencies management by bundling relevent libraries 
+ * 
+ * example: spring-boot-starter-web include dependencies like building web application (spring mvc , tomcat)
+ * spring-boot-starter-security: include security for authentication and authorization.abstract 
+ * 
+ * 3. embedded servers:
+ * spring boot application come with embedded web servers like tomcat, jetty and undertow.
+ * eliminates the need of set up an external servers.
+ * application can run as standalone jar file using java-jar.
+ * 
+ * 4. production ready feature:
+ * spring boot actuator : provide production ready featurefor monitoring and managing the application.
  */
