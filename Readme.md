@@ -33,4 +33,30 @@ jm is the java vertual machine is an abstract machine,it is calle as virtual mac
 it is an specufication that provide an run time enoirment in which java byte code can be executed
 it is also run those program which are written in other language but compiled to java bytecode,
 jvm are aailable for many software and hardware platform , jm jre and jdk
-are platform dependent because the configuration of each os is d
+are platform dependent because the configuration of each os is different form each other ,
+
+jvm perform the following main task:
+loads code
+verifies codes
+execute codes
+provide runtime enoirment 
+
+# jre 
+
+JRE is an acronym for Java Runtime Environment. It is also written as Java RTE. The Java Runtime Environment is a set of software tools which are used for developing Java applications. It is used to provide the runtime environment. It is the implementation of JVM. It physically exists. It contains a set of libraries + other files that JVM uses at runtime.
+
+# jdk
+
+jdk is the jaa development kit is a software development enoirment whichh is used to developed
+java applications and applets,it physically exist it contains jre + development tools.
+
+jdk is implenmentaion of any one of the below given jaa platform released by oracle coorporates
+standard edition java platform
+enterprise edition java platform
+micro edition java platform
+
+the jdk contain the private java virtual machine and a few other resources 
+interpreter(loader), a compiler (javac),an achiever(jar), a documentaion generator(javadoc)
+
+# variable in java 
+
