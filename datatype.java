@@ -65,4 +65,10 @@ java byte keyword is used to declared a variable which can hold 8 bit data balue
 
 7. class: java class keyword is used to declare a class .
 
+8. enum: enum is basically used to define the fixed set of constant , enum constructor are always private or default.
+
+ 9. extends: Java extends keyword is used to indicate that a class is derived from another class or interface.
+
+ 10. final: final keyword is used to indicate that a variable holds a constant value , it is used with a variable , it is used to restrict the variable from upating the variable value.
+ 
  */
