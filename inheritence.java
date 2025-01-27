@@ -71,6 +71,38 @@
  compile time polymorphism :
  method overloading is used to achive compile time polymorphism , a class have numourous method with the same name 
 
+ class Calculation {  
+    int add(int a, int b) {  
+        return a + b;  
+    }  
+    double add(double a, double b) {  
+        return a + b;  
+    }  
+}  
+public class CompileTimePolymorphism {  
+    public static void main(String[] args) {  
+        Calculation calc = new Calculation();  
+        // Compile-time polymorphism: selecting the appropriate add method based on parameter types  
+        System.out.println("Sum of integers: " + calc.add(5, 3));  
+        System.out.println("Sum of doubles: " + calc.add(2.5, 3.7));  
+    }  
+}  
+    runtime polymorphism in java
+
+    runtime polymorphism or dynamic method dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile time.
+
+    class Bike{  
+  void run(){System.out.println("running");}  
+}  
+class Splendor extends Bike{  
+  void run(){System.out.println("running safely with 60km");}  
+  
+  public static void main(String args[]){  
+    Bike b = new Splendor();//upcasting  
+    b.run();  
+  }  
+}  
+
 
 
  */
