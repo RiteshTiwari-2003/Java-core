@@ -19,5 +19,11 @@
  * the @override annotation is used to indicate that a method is being overridden.
  * 
  * 
+ * java new keyword;
+ * 
+ * the java new keyword is used to create new instance of the class. in other word i can say that it instantiate a class by allocating memory for new object and returning a reference to that memory
+ * 
+ * point to remember:
+ * 
  * 
  */
