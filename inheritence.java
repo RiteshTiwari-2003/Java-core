@@ -22,5 +22,29 @@
  * 2; multilevel inheritense
  * 3: Hierrachical inheritence
  * 
+ * Aggrigation in java:
+ * 
+ * Aggregation is simply a has a relation ship
+ * 
+ * if a class have entity reference,it is known as aggregation.aggregation represent has a relation ship.
+ * consider a situation where  Empoyee object contain many information such as id, name , emailid etc.
+ * it contain one more object named address, which contain its own information such as city , state, country, Zipcode etc.
+ * 
+ * class Employee{
+ * int id;
+ * String name;
+ * Address address;}
+ * in such case employee has a entity reference address
+ * 
+ * class Operation{
+ * int square(int num){
+ * return n*n;}}
+ * class circle{
+ * Operation op;
+ * double pi=3.14;
+ * double area(int radius){
+ * op=new Operation();
+ * int rsqure=op.square(radius);
+ * return pi*rsquare;}}
  * 
  */
