@@ -12,5 +12,15 @@
  * 
  * inheritence represent is a relation ship which is also known as parent child relation ship.
  * 
+ * why use inheritense in java:
+ * for overriding , for run time polymorphism in java
+ * code reusability
+ * 
+ * type of inheritense in java:
+ * 
+ * 1: single inheritence
+ * 2; multilevel inheritense
+ * 3: Hierrachical inheritence
+ * 
  * 
  */
