@@ -63,7 +63,14 @@
  the final keyword in java is used to restrict the user.
 
  runtime polymorphism in java (overriding)
+ plymorphism have two type one is compile time polymorphism and one is run time polymorphism 
+ polymorphism in java is a concept by which we can perform a single action in different ways, polymorphism derived from 2 greek words: one is poly means many and 
+ morphs means many forms.
+ so plymorphism means many forms.
 
- 
+ compile time polymorphism :
+ method overloading is used to achive compile time polymorphism , a class have numourous method with the same name 
+
+
 
  */
