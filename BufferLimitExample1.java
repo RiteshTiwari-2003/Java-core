@@ -32,6 +32,29 @@ public class BufferLimitExample1{
      * the long containe minimum value of -2^63 and maximum value 2^63-1
      * 
      * from java 8, the long can represent as an unsigned 64bit long , which has a minimum value of 0 and and a maximum value is 2^64-1
+     * 
+     * 
+     * java string valueOf()
+     * 
+     * the String.valueOf() method in java is a multipurpose static method. its major function lies in conversion of types of data,
+     * such as primitive types and object into a string.the technique provide a efficient and convenient way to construct string objects from different source of data.
+     * 
+     * internal representation
+     * 
+     * public static String valueof(Object obj){
+     * return (obj==null)?"null":obj.toString();}
+     * 
+     * method signature 
+     * public static String valueOf(boolean b)
+     * public static String valueOf(char c)
+     * public static String valueof(char[]c)
+     * public static String valueof(int i)
+     * 
+     * public class stringvalueofExample{
+     * public static void main(String[] args){
+     * int value=30;
+     * String s1=String.valueOf(value);
+     * System.out.println(s1+10);}}// output is 3010
      */
 
     
