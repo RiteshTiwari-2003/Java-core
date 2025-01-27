@@ -47,4 +47,23 @@
  * int rsqure=op.square(radius);
  * return pi*rsquare;}}
  * 
+ * 
+ super keyword in java
+
+ the super keyword in java is a referense variable which is used to refer immideate parent class object.
+ whenever you create the instance of subclass, an instanse of parent class is created implicitly which is refered by super reference variable.
+
+ usage of java super keyword:
+ super can be used to refer immdeate parent class instance variable
+ super can be used to invoke immdeate parent class method.
+ super() can be used to invoke the immdeate parent class constructor.
+
+ final keyword in java:
+
+ the final keyword in java is used to restrict the user.
+
+ runtime polymorphism in java (overriding)
+
+ 
+
  */
