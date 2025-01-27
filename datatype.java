@@ -70,5 +70,15 @@ java byte keyword is used to declared a variable which can hold 8 bit data balue
  9. extends: Java extends keyword is used to indicate that a class is derived from another class or interface.
 
  10. final: final keyword is used to indicate that a variable holds a constant value , it is used with a variable , it is used to restrict the variable from upating the variable value.
+
+ 11. synchronized : java synchronized keyword is used to specify the critical section or method in multithreaded code.
+
+ 12. this: java this keyword is used to refer the current object in a method or constructor.
+
+ 13. throw: java throw keyword is used to explicitly throw an exception, 
+
+
+
+ 
  
  */
