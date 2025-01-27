@@ -55,6 +55,80 @@ public class BufferLimitExample1{
      * int value=30;
      * String s1=String.valueOf(value);
      * System.out.println(s1+10);}}// output is 3010
+     * 
+     * java abstract keyword
+     * 
+     * the abstract eyword is used to achive abstraction in java, it is a non access modifier whch is used to create abstract cloass and method.
+     * the role of an abstract class is to contain abstract method, however it also contain non abstraqct method, the method which is declared with abstract keyword and does not have implementationn is
+     * known as abstract method
+     * 
+     * abstract class Employee{
+     * abstract void work(){
+     * }}// we cannot declare a abstract method in non abstract class 
+     * 
+     * rule of abstract keyword
+     * 
+     * 1. an abstract keyword cannot be used with variable and constructor
+     * 2. if a class is abstract it can not be instantiated
+     * 3. if a method is abstract it can not be contain body
+     * 4. we can not use abstract with final
+     * 5. we can not declare abstract keyword as a private
+     * 6. we can not declare abstract keyword as a static
+     * 7. an abstract method can not be synchronized.
+     * 
+     * an abstract keyword can only be useful with class and method 
+     * an abstract class contain constructor and static method 
+     * if qa class extends the abstract class , it must also implementsa the atleast one of the abstract method.
+     * an abstract class contain the main method and the final method.
+     * an abstract class contain overloaded abstract method.
+     * 
+     * 
+     * example of abstract keyword;
+     * abstract class vehicle{
+     * abstract void bike();}
+     * class honda extends Vehicle{
+     * @override
+     * void bike(){
+     * System.out.println("bike is ridding");}}
+     * public class AbstarctExample1{
+     * pubic static void main(String[] args){
+     * Hondaobj=new honda();
+     * obj.bike();}}
+     * 
+     * 2. abstract class can contain non abstract method and abstract method
+     * 
+     * abstract class Vehicle[
+     * abstract void bike();
+     * void car(){
+     * System.out.println("Car is running");}]
+     * class Honda extends Vehicle{
+     * @override 
+     * void bike(){
+     * System.out.println("bike is running");}}
+     * public class AbstactExample2{
+     * public static void main(String[] args){
+     * Honda obj=new Honda();
+     * obj.bike();
+     * obj.car();}}
+     * 
+     * example 3:
+     * 
+     * abstract class containing the constructor
+     * 
+     * abstract class Vehicle{
+     * String msg;
+     * Vehicle(String msg){
+     * this.msg=msg;}
+     * void display(){
+     * System.out.println(msg);}}
+     * class Honda extends Vehicle{
+     * Honda(String msg){
+     * super(msg);}
+     * }
+     * public class AbstractExample3{
+     * public static void main(String[] args){
+     * Honda obj=new homda("Constructor is invoked");
+     * obj.display();}}
      */
 
     
