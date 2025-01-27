@@ -93,5 +93,14 @@
 
  java public keywords
 
- 
+ the java public keyword s an access modifier , it can be assigned to variables, methods, constructors and classes, it is the most non restricted type of access modifier.
+
+ point to remember 
+
+ the public access modifier is accessible everywhere , so we can easily access the public inside and outside the class and package.
+
+ if you are overriding any message , overriden method must not be more restrictive, if you assign to public to any method and variable , 
+ that method and variable can be overriden to the sub class using public access modifier only .
+
+ if a program contain multiple classes at most one class can be assigned as public 
  */
