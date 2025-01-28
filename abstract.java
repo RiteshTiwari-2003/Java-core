@@ -86,4 +86,33 @@
  * by interface we can support the functionality of multiple inheritence
  * it can be used to achieve loose coupling
  * 
+ * 
+ * difference between abstarct class and interface 
+ * 
+ * abstarct class can have abstarct and non abstarct method
+ * 
+ * interface can have only abstarct method, since java 8 , it can have default and static method also,
+ * 
+ * abstarct class does not support multiple inheritence 
+ * 
+ * interface support multiple inheritence
+ * 
+ * abstract class can have final non final and static and non static variable 
+ * interface only static and final variable.
+ * 
+ * abstarct class can provide the implementation of interfacer 
+ * 
+ * interface can not povide the implementnation of abstarct class.
+ * 
+ * the abstract keyword is useful for decklare the abstract class 
+ * 
+ * the interface keyword is useful to declare the interface
+ * 
+ * an abstarct class can extends multipole class and implements multiple interface but 
+ * interface only extends interfaces only
+ * 
+ * the abstarct class extends using extends keyword and 
+ * interface can be implement using implement keyword
+ * 
+ * 
  */
