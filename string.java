@@ -20,6 +20,35 @@
  * thread safety; thread safe (method are synchronized making it suitable formultithreaded program).
  * usage: use stringbuffer when working in multi threaded applications where thread safety is required.
  * 
+ * what si the difference between == and .equals() server different purpose and are used to compare objects or primitive values.
+ * 
+ * 1. == operator:
+ * purpose:
+ * compares reference equality for objects and value equality for primitives .
+ * for primitive: checks whether the value are equal .
+ * for object: check whether the two reference point to the same memory allocation (whether they are the saame object)
+ * 
+ * exception handling in java
+ * 
+ * exception handling in java
+ * 
+ * exception handlinghh in java is a mechanism used tio handle runtime error, ensuring that the normal flow of the program maintained 
+ * even when unexpected condition occur , java provide a robust framework using ty, catch ,finally , throw, throws for managing exception
+ * 
+ * key component of exception handling :
+ * try: define the block of code where exception can occur.
+ * catch: handle the exception if it occur in try block .
+ * finally: a block of code that always execute , whether an exception is thrown or not.
+ * throw: used to explicitly throw an exception.
+ * 
+ * throws: declare exception that a method might throw.
+ * 
+ * 
+ * type of execption checked exception 
+ * unchecked exception: 
+ * exception that arev chaecked at compile time, if your code may throw a checked exception, , you must either handle it by try catch block or 
+ * declare it using throws keywords
+ * 
  * 
  * 
  */
