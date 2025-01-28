@@ -63,4 +63,27 @@
  * Bike obj=new honda();
  * obj.run();
  * }}
+ * 
+ * note : if i have abstarct method but class is not a abstarct class then it give error because iot is not possible we can not initialize abstarct method inside normal class .
+ * 
+ * 
+ * 
+ * interface in java
+ * 
+ * an inrterface in java is a blue print of class,it has static constant and and abstract merthods.
+ * the interface in java is machenism to achive abstarction in java, there CAN  be only abstarct method in java interface not method body, it is used to achive abstarction and multiple inheritence in java.
+ * 
+ * in other words you can say that interfaces can hve abstarct method and variable , it can not have method body.
+ * 
+ * java interface also represent the is a relation ship
+ * it can not be instantiated just like abstarct class
+ * since java 8, wec an have static and default method in a interface 
+ * and since java 9 private method also come in interface
+ * 
+ * why use java interface?
+ * 
+ * it is used to achive abstraction 
+ * by interface we can support the functionality of multiple inheritence
+ * it can be used to achieve loose coupling
+ * 
  */
