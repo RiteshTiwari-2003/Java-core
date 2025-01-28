@@ -51,4 +51,15 @@
  * 
  * 
  * 
+ * what is the difference between final finally and finalyse() in java
+ * 
+ * 1. final:
+ * the final keyword is a modifier used to apply restriction on classes metjod and variable
+ * use of final:
+ * final variable;
+ * a variable declared as final can not be reassigned after it initialize.
+ * for objects, the refrence is final , but object state still be modified.
+ * 
+ * 
+ * 
  */
