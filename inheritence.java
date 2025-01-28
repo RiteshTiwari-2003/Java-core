@@ -103,6 +103,53 @@ class Splendor extends Bike{
   }  
 }  
 
+Dynamic binding and static binding in java
+
+connecting a method call to the method body is known as binding
+there are two type of binding 
+
+1. static binding
+2. dynamic binding
+
+1. static binding:
+when type of objectt is determined at compile time, it is known as static binding.
+
+2. dynamic binding:
+when type of object is determined at run time, it is known as dynamic binding
+
+static binding example;
+
+class Dog{
+private void eat(){
+System.out.println("dog is eating...");}
+public static void main(String[] args){
+Dog d1=new Dog();
+d1.eat();}}
+
+
+dynamic binding:
+
+class Aninmal{
+void eat(){
+System.out.println("animal is eating");
+}}
+class Dog extends Animal{
+void eat(){
+System.out.println("dog is eating");}
+public static void main(String[] args){
+Animal a=new Dog();
+a.eat();}}
+
+
+
+java instanceof operator
+
+the java instance of operator is used to test whether the object is an instance of specified type or not (class or subclass or interface)
+
+public static void main(String[] args){
+Simple1 s=new Simple1();
+System.out.println(s instanceOf Simple1);//true}
+
 
 
  */
