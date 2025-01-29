@@ -74,7 +74,7 @@
  * 
  * 4. standalone application:
  * spring boot application are self content jars and wars that include all the dependencies , making deployement simpler.
- * no need for external web server,as the application runable with java-jar.
+ * no need for external web server,as the application runable with java-jar...
  * 
  * 5. production ready feature:
  * Spring boot comes with actuator, which provide production ready capabilities like health check , metrics and appplication monitoring.
