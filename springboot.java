@@ -116,4 +116,18 @@
  * 
  * 4. production ready feature:
  * spring boot actuator : provide production ready featurefor monitoring and managing the application.
+ * 
+ * differnce between spring, spring framework and spring boot
+ * 
+ * 1. definition:
+ * spring is the general term for entire spring ecosyatem
+ * spring framework a moduler framework for java enterprise application development 
+ * spring boot is an extention of spring framework that simplify setup and deployment 
+ * 
+ * type:
+ * broad term encompassing all spring projects.
+ * 
+ * 
+ * 
+ * 
  */
